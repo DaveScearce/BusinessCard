@@ -13,7 +13,7 @@ object BusinessCardParser {
    * 
    * The properties is initialized with default properties values but allows loading of user defined properties
    */
-  val NAME_FILE_PROPERTY = "businesscar.name.file"
+  val NAME_FILE_PROPERTY = "businesscard.name.file"
   
   var properties = {
     val props = new Properties()
