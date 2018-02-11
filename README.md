@@ -24,6 +24,10 @@ parseEmailAddress(document : List[List[String]]) : String
 then call:
 BusinessCard.getContactInfo(parseName, parsePhoneNumber, parseEmailAddress)(cardText)
 
+## Using BusinessCard
+
+To run and use BusinessCard, download the code and import into and IDE with a scala plugin like Ecipse or Intelij.  It can be tested with the unit tests provided or incorprated as a library for another application to use.
+
 ## Acknoledgements
 
 The common names file was found at www.quietaffiliate.com/free-first-name-and-last-name-databases-csv-and-sql/
